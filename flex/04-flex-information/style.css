@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+.title {
+  
+  text-align: center;
+}
+.container {
+  display: flex;
+  column-gap : 52px;
+  justify-content: center;
+}
+.pot1,
+.pot2,
+.pot3,
+.pot4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  width: 200px;
+}
+.container .text {
+  text-align: center;
+  margin-top: 5px;
+}
