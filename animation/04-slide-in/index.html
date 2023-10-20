@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Slide-in</title>
+    <style>
+      * {
+        overflow: hidden;
+      }
+      p {
+        animation-name: slide-in;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      @keyframes slide-in {
+        from {
+          width: 300%;
+          margin-left: 100%;
+        }
+        /* 75% {
+          font-size: 300%;
+          margin-left: 25%;
+          width: 150%;
+        } */
+        to {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptates
+      tenetur veniam eos consequatur sit, blanditiis consectetur quasi
+      necessitatibus explicabo. Dicta autem unde porro quam reprehenderit dolor
+      perferendis beatae ad!
+    </p>
+  </body>
+</html>
